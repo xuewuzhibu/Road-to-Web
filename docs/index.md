@@ -2,9 +2,9 @@
 home: true
 heroImage: https://vuepress.vuejs.org/hero.png
 heroText: Road to Web
-tagline: 本站标题意味着Web之路，是自学Web以来所有资料和文档、视频的聚合，教程文档来自于全网较好的视频或文档整理出来的，目的是为了在学习或开发中便于查漏补缺。
+tagline: 本站标题意味着Web之路，是自学Web以来所有资料和文档、视频的聚合，教程文档来自于全网较好的视频或文档整理出来的，目的是为了在学习或开发中便于查漏补缺，项目已在Github开源。
 actionText: 开始学习 →
-actionLink: /pages/a2f161/
+actionLink: 
 bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -18,31 +18,27 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-## 🎖友情链接
-::: cardList 2
-```yaml
-- name: 待添加
-  desc: 待添加
-  link: 
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: 待添加
-  desc: 待添加
-  link: 
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: 待添加
-  desc: 待添加
-  link: 
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: 待添加
-  desc: 待添加
-  link: 
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-```
-:::
+<p align="center">
+  <a class="become-sponsor" href="">支持此项目</a>
+</p>
+<style>
+.become-sponsor{
+  padding: 8px 20px;
+  display: inline-block;
+  color: #11a8cd;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 1px solid #11a8cd;
+}
+</style>
+<br/>
+
+<p align="center">
+  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io/badge/HTML-5-orange" alt="HTML5" class="no-zoom"></a>
+  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io/badge/CSS-3-brightgreen" alt="CSS3" class="no-zoom"></a>
+  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io:/github/forks/xuewuzhibu/Road-to-Web" alt="Github forks" class="no-zoom"></a>
+  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src='https://img.shields.io:/github/stars/xuewuzhibu/Road-to-Web' alt='GitHub stars' class="no-zoom"></a>
+</p>
 
 <br/>
 
@@ -50,28 +46,26 @@ postList: none
 
 ::: tip
 文档正在努力编写中...
-
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
+如果对你有帮助不妨收藏起来吧，便于日后使用。
 :::
 
 <br/>
 
-<!-- ## ⚡ 反馈与交流
+## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
-你也可以在Issue查看别人提的问题和给出解决方案。
+如果你在学习或查询过程中有任何问题，请给我提[Issue](https://github.com/xuewuzhibu/Road-to-Web/issues)。你也可以在评论区中给我提出问题。
 
 或者加入我们的QQ交流群：
 
 ::: center
-<img src="" alt="群号: " class="no-zoom" style="width:200px;">
+<img src="https://images.xuewuzhibu.cn/743ad5e3c43b2e122a5019f5a2f5de37.png" alt="群号: 584070649" class="no-zoom" style="width:200px;">
 
-#### Vdoing官方QQ群: 
-::: -->
+#### 学无止步官方QQ群: 584070649
+:::
 
 <!-- Happy new year -->
 <br/><br/>
-<div class="container-happy">
+<!-- <div class="container-happy">
   <div>
     <span>Happy</span>
     <span>Wish</span>
@@ -90,9 +84,9 @@ postList: none
     <span>Tomorrow</span>
   </div>
   </footer>
-</div>
+</div> -->
 
-<style>
+<!-- <style>
 .container-happy {
   font-size: 18px;
   font-family: Times New Roman;
@@ -139,13 +133,41 @@ postList: none
   background-color: #E6F4F1;
   transform: translateY(-.6rem) rotateX(-30deg);
 }
-</style>
+</style> -->
+
+## 🎖友情链接
+::: cardList 2
+```yaml
+- name: 待添加
+  desc: 待添加
+  link: 
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 待添加
+  desc: 待添加
+  link: 
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 待添加
+  desc: 待添加
+  link: 
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: 待添加
+  desc: 待添加
+  link: 
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+```
+:::
+
+<br/>
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+<!-- <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
   .pageB img{width:80px!important;}
   .pageT .wwads-content{display:flex;align-items: center;}
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;}
-</style>
+</style> -->
