@@ -34,8 +34,9 @@ postList: none
 <br/>
 
 <p align="center">
-  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io/badge/HTML-5-orange" alt="HTML5" class="no-zoom"></a>
-  <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io/badge/CSS-3-brightgreen" alt="CSS3" class="no-zoom"></a>
+  <a href="javascript:;"><img src="https://img.shields.io/badge/languag-html-orange" alt="HTML5" class="no-zoom"></a>
+  <a href="javascript:;"><img src="https://img.shields.io/badge/languag-css-brightgreen" alt="CSS3" class="no-zoom"></a>
+  <a href="javascript:;"><img src="https://img.shields.io/badge/languag-javascript-yellow" alt="JavaScript" class="no-zoom"></a>
   <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src="https://img.shields.io:/github/forks/xuewuzhibu/Road-to-Web" alt="Github forks" class="no-zoom"></a>
   <a href="https://github.com/xuewuzhibu/Road-to-Web" target="_blank"><img src='https://img.shields.io:/github/stars/xuewuzhibu/Road-to-Web' alt='GitHub stars' class="no-zoom"></a>
 </p>

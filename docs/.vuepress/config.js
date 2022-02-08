@@ -10,7 +10,7 @@ module.exports = {
     head: [
         // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-        ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
+        ['meta', { name: 'keywords', content: 'html,css,javascript,Web文档,教程,学无止步,Young' }],
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ],
 
@@ -19,46 +19,107 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             {
-                text: '前端文档',
+                text: '基础入门',
                 items: [
-                    {
-                        text: '前端三件套',
-                        items: [
-                            { text: 'HTML文档', link: '/html-docs/' },
-                            { text: 'CSS文档', link: '/css-docs/' },
-                            { text: 'JavaScript文档', link: '/javascript-docs/' },
-                        ],
-                    },
+                    { text: 'HTML文档', link: '//' },
+                    { text: 'CSS文档', link: '//' },
+                    { text: 'JavaScript文档', link: '//' },
+                ],
+            },
+            {
+                text: '高级进阶',
+                items: [
                     {
                         text: 'CSS预处理语言',
                         items: [
-                            { text: 'Sass/Scss文档', link: '/sass-scss-docs/' },
-                            { text: 'Less文档', link: '/less-docs' },
+                            { text: 'Sass/Scss文档', link: '//' },
+                            { text: 'Less文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: 'JavaScript语法糖',
+                        items: [
+                            { text: 'TypeScript文档', link: '//' },
+                            { text: 'ECMAScript6文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: '包管理工具',
+                        items: [
+                            { text: 'Npm文档', link: '//' },
+                            { text: 'Yarn文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: '构建工具',
+                        items: [
+                            { text: 'Npm Script文档', link: '//' },
+                            { text: 'Webpack文档', link: '//' },
                         ],
                     },
                 ],
             },
             {
-                text: '配置',
-                link: '/pages/a20ce8/',
+                text: '前端框架',
                 items: [
-                    { text: '主题配置', link: '/pages/a20ce8/' },
-                    { text: '首页配置', link: '/pages/f14bdb/' },
-                    { text: 'front matter配置', link: '/pages/3216b0/' },
-                    { text: '目录页配置', link: '/pages/54651a/' },
-                    { text: '添加摘要', link: '/pages/1cc523/' },
-                    { text: '修改主题颜色和样式', link: '/pages/f51918/' },
-                    { text: '评论栏', link: '/pages/ce175c/' },
+                    {
+                        text: 'JavaScript框架',
+                        items: [
+                            { text: 'Vue.js文档', link: '//' },
+                            { text: 'React.js文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: 'CSS相关框架(官方文档)',
+                        items: [
+                            { text: '(由于官方文档较为全面，CSS框架容易上手)', link: '/#' },
+                            { text: 'Bootstrap官方文档', link: 'https://v3.bootcss.com/getting-started/' },
+                            { text: 'Material UI', link: 'https://v4.mui.com/zh/getting-started/installation/' },
+                        ],
+                    },
                 ],
             },
-            { text: '资源', link: '/pages/db78e2/' },
-            { text: '案例', link: '/pages/5d571c/' },
-            { text: '问答', link: '/pages/9cc27d/' },
-            { text: '💖支持', link: '/pages/1b12ed/' },
+            {
+                text: '其他前端文档',
+                items: [
+                    {
+                        text: '服务器渲染',
+                        items: [
+                            { text: 'Next.js文档', link: '//' },
+                            { text: 'Nuxt.js文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: '图形化编程',
+                        items: [{ text: 'Thress.js文档', link: '//' }],
+                    },
+                    {
+                        text: '静态站点生成器',
+                        items: [
+                            { text: 'Next.js文档', link: '//' },
+                            { text: 'Nuxt.js文档', link: '//' },
+                            { text: 'Vuepress文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: '移动App开发',
+                        items: [
+                            { text: 'React Native文档', link: '//' },
+                            { text: 'UniApp文档', link: '//' },
+                        ],
+                    },
+                    {
+                        text: '桌面应用开发',
+                        items: [{ text: 'Electron文档', link: '//' }],
+                    },
+                ],
+            },
+            { text: '问答', link: '//' },
+            { text: '💖支持', link: '//' },
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png', // 导航栏logo
-        repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+        repo: 'xuewuzhibu/Road-to-Web', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -80,11 +141,7 @@ module.exports = {
         //   '图标地址1',
         //   '图标地址2'
         // ],
-        // bodyBgImg: [
-        //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-        //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-        //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
-        // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+        bodyBgImg: ['https://images.xuewuzhibu.cn/4e18affa472161768bda4ec49c65ac4d.jpg', 'https://images.xuewuzhibu.cn/d3b3e7e57d23a96195fcfef532172d5f.jpg', 'https://images.xuewuzhibu.cn/70d29688254c6564785966b6f67a4a36.jpg'], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
 
         // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
