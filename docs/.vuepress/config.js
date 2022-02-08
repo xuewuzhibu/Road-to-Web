@@ -21,9 +21,9 @@ module.exports = {
             {
                 text: '基础入门',
                 items: [
-                    { text: 'HTML文档', link: '//' },
-                    { text: 'CSS文档', link: '//' },
-                    { text: 'JavaScript文档', link: '//' },
+                    { text: 'HTML文档', link: '/pages/d4d149/' },
+                    { text: 'CSS文档', link: '/pages/14fbd7/' },
+                    { text: 'JavaScript文档', link: '/pages/d6e96a/' },
                 ],
             },
             {
@@ -32,29 +32,29 @@ module.exports = {
                     {
                         text: 'CSS预处理语言',
                         items: [
-                            { text: 'Sass/Scss文档', link: '//' },
-                            { text: 'Less文档', link: '//' },
+                            { text: 'Sass/Scss文档', link: '/pages/e9f91a/' },
+                            { text: 'Less文档', link: '/pages/0c5469/' },
                         ],
                     },
                     {
                         text: 'JavaScript语法糖',
                         items: [
-                            { text: 'TypeScript文档', link: '//' },
-                            { text: 'ECMAScript6文档', link: '//' },
+                            { text: 'TypeScript文档', link: '/pages/07ea96/' },
+                            { text: 'ECMAScript6文档', link: '/pages/0352b9/' },
                         ],
                     },
                     {
                         text: '包管理工具',
                         items: [
-                            { text: 'Npm文档', link: '//' },
-                            { text: 'Yarn文档', link: '//' },
+                            { text: 'npm文档', link: '/pages/c29631/' },
+                            { text: 'Yarn文档', link: '/pages/cb419f/' },
                         ],
                     },
                     {
                         text: '构建工具',
                         items: [
-                            { text: 'Npm Script文档', link: '//' },
-                            { text: 'Webpack文档', link: '//' },
+                            { text: 'NPM Script文档', link: '/pages/de9b88/' },
+                            { text: 'Webpack文档', link: '/pages/b6fc67/' },
                         ],
                     },
                 ],
@@ -65,8 +65,8 @@ module.exports = {
                     {
                         text: 'JavaScript框架',
                         items: [
-                            { text: 'Vue.js文档', link: '//' },
-                            { text: 'React.js文档', link: '//' },
+                            { text: 'Vue.js文档', link: '/pages/b12887/' },
+                            { text: 'React.js文档', link: '/pages/c98e1d/' },
                         ],
                     },
                     {
@@ -85,40 +85,40 @@ module.exports = {
                     {
                         text: '服务器渲染',
                         items: [
-                            { text: 'Next.js文档', link: '//' },
-                            { text: 'Nuxt.js文档', link: '//' },
+                            { text: 'Next.js文档', link: '/pages/dd0e5b/' },
+                            { text: 'Nuxt.js文档', link: '/pages/07afaa/' },
                         ],
                     },
                     {
                         text: '图形化编程',
-                        items: [{ text: 'Thress.js文档', link: '//' }],
+                        items: [{ text: 'Thress.js文档', link: '/pages/148a96/' }],
                     },
                     {
                         text: '静态站点生成器',
                         items: [
-                            { text: 'Next.js文档', link: '//' },
-                            { text: 'Nuxt.js文档', link: '//' },
-                            { text: 'Vuepress文档', link: '//' },
+                            { text: 'Next.js文档', link: '/pages/429ed5/' },
+                            { text: 'Nuxt.js文档', link: '/pages/6b7dd4/' },
+                            { text: 'VuePress文档', link: '/pages/3a5715/' },
                         ],
                     },
                     {
                         text: '移动App开发',
                         items: [
-                            { text: 'React Native文档', link: '//' },
-                            { text: 'UniApp文档', link: '//' },
+                            { text: 'React Native文档', link: '/pages/3ca260/' },
+                            { text: 'UniApp文档', link: '/pages/76823e/' },
                         ],
                     },
                     {
                         text: '桌面应用开发',
-                        items: [{ text: 'Electron文档', link: '//' }],
+                        items: [{ text: 'Electron文档', link: '/pages/f1a465/' }],
                     },
                 ],
             },
-            { text: '问答', link: '//' },
-            { text: '💖支持', link: '//' },
+            { text: '问答', link: '/pages/ebc669/' },
+            { text: '💖支持', link: '/pages/f3652b/' },
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-        logo: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png', // 导航栏logo
+        logo: 'https://vuepress.vuejs.org/hero.png', // 导航栏logo
         repo: 'xuewuzhibu/Road-to-Web', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
