@@ -1,5 +1,5 @@
 const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
-// const htmlModules = require('./config/htmlModules.js');
+const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
     theme: 'vdoing', // 使用依赖包主题
@@ -158,7 +158,7 @@ module.exports = {
         //   '图标地址1',
         //   '图标地址2'
         // ],
-        bodyBgImg: ['https://images.xuewuzhibu.cn/4e18affa472161768bda4ec49c65ac4d.jpg', 'https://images.xuewuzhibu.cn/d3b3e7e57d23a96195fcfef532172d5f.jpg', 'https://images.xuewuzhibu.cn/70d29688254c6564785966b6f67a4a36.jpg'], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+        // bodyBgImg: ['https://images.xuewuzhibu.cn/4e18affa472161768bda4ec49c65ac4d.jpg', 'https://images.xuewuzhibu.cn/d3b3e7e57d23a96195fcfef532172d5f.jpg', 'https://images.xuewuzhibu.cn/70d29688254c6564785966b6f67a4a36.jpg'], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
 
         // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
@@ -199,7 +199,7 @@ module.exports = {
             createYear: 2021, // 博客创建年份
             copyrightInfo: '<a href="//xuewuzhibu.cn">学无止步</a>', // 博客版权信息，支持a标签
         },
-        // htmlModules,
+        htmlModules,
     },
 
     // 插件

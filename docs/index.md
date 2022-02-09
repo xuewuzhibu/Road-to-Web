@@ -5,7 +5,7 @@ heroText: Road to Web
 tagline: 本站标题意味着Web之路，是自学Web以来所有资料和文档、视频的聚合，教程文档来自于全网较好的视频或文档整理出来的，目的是为了在学习或开发中便于查漏补缺，项目已在Github开源。
 actionText: 开始学习 →
 actionLink: /pages/69baf8/
-bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: 知识全面
