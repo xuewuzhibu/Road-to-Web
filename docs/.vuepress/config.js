@@ -1,4 +1,5 @@
 const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
+// const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
     theme: 'vdoing', // 使用依赖包主题
@@ -12,6 +13,9 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
         ['meta', { name: 'keywords', content: 'html,css,javascript,Web文档,教程,学无止步,Young' }],
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+
+        // ['meta', { name: 'wwads-cn-verify', content: '' }], // 广告相关，你可以去掉
+        // ['script', { src: '', type: 'text/javascript' }], // 广告相关，你可以去掉
     ],
 
     // 主题配置
@@ -20,14 +24,25 @@ module.exports = {
             { text: '首页', link: '/' },
             {
                 text: '基础入门',
+                link: '/pages/d4d149/',
                 items: [
-                    { text: 'HTML文档', link: '/pages/d4d149/' },
-                    { text: 'CSS文档', link: '/pages/14fbd7/' },
-                    { text: 'JavaScript文档', link: '/pages/d6e96a/' },
+                    {
+                        text: '前端基础',
+                        items: [
+                            { text: 'HTML文档', link: '/pages/d4d149/' },
+                            { text: 'CSS文档', link: '/pages/14fbd7/' },
+                            { text: 'JavaScript文档', link: '/pages/d6e96a/' },
+                        ],
+                    },
+                    {
+                        text: 'Git安装及使用',
+                        items: [{ text: 'Git文档', link: '/pages/35a411/' }],
+                    },
                 ],
             },
             {
                 text: '高级进阶',
+                link: '/pages/e9f91a/',
                 items: [
                     {
                         text: 'CSS预处理语言',
@@ -61,6 +76,7 @@ module.exports = {
             },
             {
                 text: '前端框架',
+                link: '/pages/b12887/',
                 items: [
                     {
                         text: 'JavaScript框架',
@@ -81,6 +97,7 @@ module.exports = {
             },
             {
                 text: '其他前端文档',
+                link: '/pages/dd0e5b/',
                 items: [
                     {
                         text: '服务器渲染',
@@ -118,7 +135,7 @@ module.exports = {
             { text: '💖支持', link: '/pages/f3652b/' },
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-        logo: 'https://vuepress.vuejs.org/hero.png', // 导航栏logo
+        logo: 'https://images.xuewuzhibu.cn/dc02639e68054090f843827f6425b87d.png', // 导航栏logo
         repo: 'xuewuzhibu/Road-to-Web', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -133,7 +150,7 @@ module.exports = {
         // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
         updateBar: {
             // 最近更新栏
-            showToArticle: true, // 显示到文章页底部，默认true
+            showToArticle: false, // 显示到文章页底部，默认true
             // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
         },
         // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -141,7 +158,11 @@ module.exports = {
         //   '图标地址1',
         //   '图标地址2'
         // ],
-        bodyBgImg: ['https://images.xuewuzhibu.cn/4e18affa472161768bda4ec49c65ac4d.jpg', 'https://images.xuewuzhibu.cn/d3b3e7e57d23a96195fcfef532172d5f.jpg', 'https://images.xuewuzhibu.cn/70d29688254c6564785966b6f67a4a36.jpg'], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+        // bodyBgImg: [
+        // 'https://images.xuewuzhibu.cn/4e18affa472161768bda4ec49c65ac4d.jpg',
+        // 'https://images.xuewuzhibu.cn/d3b3e7e57d23a96195fcfef532172d5f.jpg',
+        // 'https://images.xuewuzhibu.cn/70d29688254c6564785966b6f67a4a36.jpg'
+        // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
 
         // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
@@ -149,7 +170,7 @@ module.exports = {
 
         category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
         tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
-        archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
+        //archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
         author: {
             // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
@@ -182,6 +203,7 @@ module.exports = {
             createYear: 2021, // 博客创建年份
             copyrightInfo: '<a href="//xuewuzhibu.cn">学无止步</a>', // 博客版权信息，支持a标签
         },
+        // htmlModules,
     },
 
     // 插件

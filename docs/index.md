@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: https://vuepress.vuejs.org/hero.png
+heroImage: https://images.xuewuzhibu.cn/dc02639e68054090f843827f6425b87d.png
 heroText: Road to Web
 tagline: 本站标题意味着Web之路，是自学Web以来所有资料和文档、视频的聚合，教程文档来自于全网较好的视频或文档整理出来的，目的是为了在学习或开发中便于查漏补缺，项目已在Github开源。
 actionText: 开始学习 →
-actionLink: 
-bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+actionLink: /pages/69baf8/
+bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: 知识全面
@@ -21,6 +21,7 @@ postList: none
 <p align="center">
   <a class="become-sponsor" href="">支持此项目</a>
 </p>
+
 <style>
 .become-sponsor{
   padding: 8px 20px;
@@ -31,8 +32,8 @@ postList: none
   border: 1px solid #11a8cd;
 }
 </style>
-<br/>
 
+<br/>
 <p align="center">
   <a href="javascript:;"><img src="https://img.shields.io/badge/languag-html-orange" alt="HTML5" class="no-zoom"></a>
   <a href="javascript:;"><img src="https://img.shields.io/badge/languag-css-brightgreen" alt="CSS3" class="no-zoom"></a>
