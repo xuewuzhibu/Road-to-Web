@@ -13,6 +13,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
         ['meta', { name: 'keywords', content: 'html,css,javascript,Web文档,教程,学无止步,Young' }],
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+        ['script', { src: 'https://cdn.xuewuzhibu.cn/XueWuZhiBu/JS-demo/js-demo.js' }], // js-demo
         // ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }], // 代码演示模块
         // ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }], // 代码演示模块
         ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }], // 代码演示模块
