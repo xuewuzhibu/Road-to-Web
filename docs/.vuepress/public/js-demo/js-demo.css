@@ -31,7 +31,8 @@
     border: 1px solid #139bbe;
 }
 
-#run {
+#run,
+#return {
     width: 50px;
     height: 30px;
     color: #fff;
@@ -41,4 +42,8 @@
     border-radius: 10%;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.js-demo>#return {
+    width: 70px;
 }
