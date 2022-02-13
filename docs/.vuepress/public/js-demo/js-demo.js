@@ -22,8 +22,12 @@ function consoleRunCode(values) {
     for (const value of data) {
         eval(value);
     }
+    let log = document.getElementById('log');
+    log.classList.add('log');
+    log.innerHTML = '请在本页面点击F12 -> 控制台(Console)中查看输出结果！';
 }
 
-function historyGo() {
-    window.history.go(-1);
-}
+// 返回上一页
+// function historyGo() {
+//     window.history.go(-1);
+// }
