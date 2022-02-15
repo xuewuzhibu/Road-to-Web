@@ -1,8 +1,9 @@
-let url = document.URL;
+// 获取当前网页地址
+// let url = document.URL;
 function runCode(id) {
     let values = document.getElementById(`textarea${id}`);
     let code = values.value;
-    if (code.indexOf('if') != -1 || code.indexOf('`') != -1) {
+    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1) {
         eval(code);
     } else {
         let data = code.split('\n');
@@ -15,7 +16,7 @@ function runCode(id) {
 function consoleRunCode(id) {
     let values = document.getElementById(`textarea${id}`);
     let code = values.value;
-    if (code.indexOf('`') != -1) {
+    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1) {
         console.info(`第${id}个例子输出结果为：`);
         eval(code);
     } else {
