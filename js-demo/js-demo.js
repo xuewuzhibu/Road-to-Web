@@ -2,9 +2,7 @@ let url = document.URL;
 function runCode(id) {
     let values = document.getElementById(`textarea${id}`);
     let code = values.value;
-    if (code.indexOf('if') != -1) {
-        eval(code);
-    } else if (code.indexOf('`') != -1) {
+    if (code.indexOf('if') != -1 || code.indexOf('`') != -1) {
         eval(code);
     } else {
         let data = code.split('\n');
