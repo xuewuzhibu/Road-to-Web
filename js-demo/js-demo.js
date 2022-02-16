@@ -1,9 +1,9 @@
 // 获取当前网页地址
 // let url = document.URL;
-function runCode(id) {
+function runCode(id, obj) {
     let values = document.getElementById(`textarea${id}`);
     let code = values.value;
-    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1) {
+    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1 || obj === true) {
         eval(code);
     } else {
         let data = code.split('\n');
@@ -13,10 +13,10 @@ function runCode(id) {
         }
     }
 }
-function consoleRunCode(id) {
+function consoleRunCode(id, obj) {
     let values = document.getElementById(`textarea${id}`);
     let code = values.value;
-    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1) {
+    if (code.indexOf('if') != -1 || code.indexOf('`') != -1 || code.indexOf('function') != -1 || obj === true) {
         console.info(`第${id}个例子输出结果为：`);
         eval(code);
     } else {
