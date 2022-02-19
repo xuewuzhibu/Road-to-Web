@@ -15,9 +15,13 @@ module.exports = {
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
         ['link', { rel: 'stylesheet', href: '/js-demo/js-demo.css' }], // js-demo
         ['script', { src: '/js-demo/js-demo.js' }], // js-demo
-        // ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }], // 代码演示模块
-        // ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }], // 代码演示模块
-        ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }], // 代码演示模块
+        ['link', { rel: 'stylesheet', href: 'https://cdn.xuewuzhibu.cn/XueWuZhiBu/KaTeX/katex.min.css' }],
+        ['link', { rel: 'stylesheet', href: 'https://cdn.xuewuzhibu.cn/XueWuZhiBu/KaTeX/github-markdown.min.css' }],
+        [
+            // ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }], // 代码演示模块
+            // ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }], // 代码演示模块
+            ('script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }),
+        ], // 代码演示模块
         ['script', { src: 'https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js' }], // 代码演示模块
         // ['meta', { name: 'wwads-cn-verify', content: '' }], // 广告相关，你可以去掉
         // ['script', { src: '', type: 'text/javascript' }], // 广告相关，你可以去掉
@@ -206,7 +210,11 @@ module.exports = {
         },
         htmlModules,
     },
-
+    markdown: {
+        extendMarkdown: (md) => {
+            md.use(require('markdown-it-katex')); // 启动 markdown-it-katex 插件
+        },
+    },
     // 插件
     plugins: [
         // [require('./plugins/love-me'), { // 鼠标点击爱心特效
